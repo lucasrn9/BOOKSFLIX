@@ -5,12 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
+    <!-- owl carousel -->
+   <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+   <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+    <!-- owl carousel -->
+    
+    <!-- responsive -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <!-- responsive -->
     <title>BOOKSFLIX</title>
   </head>
   <body>
     <header>
       <div class="container">
         <h2 class="title">BOOKSFLIX <i class="fas fa-book"></i></h2>
+
+        <div class="search">
+          <form name="searchForm" class="searchForm" action="">
+          <input type="search" name="search" id="search" placeholder="Search for a book" >
+          <button type="submit" id="searchbtn"> <i class="fas fa-search"></i></button>
+        </form>
+        </div>
 
         <nav class="menu">
           <a href="#">Books</a>
@@ -29,28 +44,42 @@
         <div class="container">
           <h1 class="book-title">Only if for a Night</h1>
           <p class="description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas,
-            sunt. Modi corporis accusantium cupiditate molestias et deserunt
-            distinctio eius nostrum, laborum, numquam, voluptatem repudiandae
-            sed esse? Ut id labore adipisci.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laboriosam eius facere nemo voluptates quisquam dolorem illum nesciunt deleniti quo minus officiis, necessitatibus placeat vero iusto aut voluptas. Quaerat, quis.
           </p>
 
           <div class="buttons">
             <button role="button" class="button"><i class="fas fa-book-reader"></i> Read Now</button>
             <button role="button" class="button"><i class="fas fa-clock"></i> Read Later</button>
-
-
-
-
           </div>
-
         </div>
       </div>
     </main>
+
+    <div class="carousel">
+      <div class="container">
+      <div class="owl-carousel owl-theme">
+      <div class="item"><img src="img/book1.jpg" alt=""></div>
+      <div class="item"><img src="img/book2.jpg" alt=""></div>
+      <div class="item"><img src="img/book3.jpg" alt=""></div>
+      <div class="item"><img src="img/book4.jpg" alt=""></div>
+      <div class="item"><img src="img/book5.jpg" alt=""></div>
+      <div class="item"><img src="img/book6.png" alt=""></div>
+      <div class="item"><img src="img/book7.jpg" alt=""></div>
+      <div class="item"><img src="img/book8.jpeg" alt=""></div>
+      <div class="item"><img src="img/book9.jpg" alt=""></div>
+      <div class="item"><img src="img/book10.jpg" alt=""></div>
+    </div>
+      </div>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/7c1b4f61d7.js"
       crossorigin="anonymous"
     ></script>
+    <!-- owl e jquery -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <!-- owl e jquery -->
   </body>
 </html>
