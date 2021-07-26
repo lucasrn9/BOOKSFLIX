@@ -1,2 +1,2 @@
 # BOOKSFLIX
- Projeto criado duranto o bootcamp MRV na Digital Innovation One
+ Projeto clone do site Netflix, adaptado para uma versão de livros, criado durante o bootcamp MRV na Digital Innovation One.
